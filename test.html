@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .product-category {
+            margin: 20px;
+        }
+        .product-category h2 {
+            color: #333;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: white;
+        }
+        .product img {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+        .product .details {
+            flex-grow: 1;
+        }
+        .product .price {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать</h1>
+</header>
+
+<nav>
+    <a href="#fruits">Фрукты</a>
+    <a href="#vegetables">Овощи</a>
+    <a href="#beverages">Напитки</a>
+</nav>
+
+<div class="product-category" id="fruits">
+    <h2>Фрукты</h2>
+    <div class="product">
+        <img src="apple.jpg" alt="Яблоко">
+        <div class="details">
+            <p>Яблоко</p>
+            <p class="price">₸300</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="banana.jpg" alt="Банан">
+        <div class="details">
+            <p>Банан</p>
+            <p class="price">₸250</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="orange.jpg" alt="Апельсин">
+        <div class="details">
+            <p>Апельсин</p>
+            <p class="price">₸350</p>
+        </div>
+    </div>
+</div>
+
+<div class="product-category" id="vegetables">
+    <h2>Овощи</h2>
+    <div class="product">
+        <img src="carrot.jpg" alt="Морковь">
+        <div class="details">
+            <p>Морковь</p>
+            <p class="price">₸200</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="potato.jpg" alt="Картофель">
+        <div class="details">
+            <p>Картофель</p>
+            <p class="price">₸150</p>
+        </div>
+    </div>
+</div>
+
+<div class="product-category" id="beverages">
+    <h2>Напитки</h2>
+    <div class="product">
+        <img src="water.jpg" alt="Вода">
+        <div class="details">
+            <p>Минеральная вода</p>
+            <p class="price">₸100</p>
+        </div>
+    </div>
+    <div class="product">
+        <img src="juice.jpg" alt="Сок">
+        <div class="details">
+            <p>Фруктовый сок</p>
+            <p class="price">₸400</p>
+        </div>
+    </div>
+</div>
+ <div class="product">
+        <img src="juice.jpg" alt="курва почему?!">
+        <div class="details">
+            <p>Компот из сухофруктов</p>
+            <p class="price">₸600</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Интернет-магазин. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
